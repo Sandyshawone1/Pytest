@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01d53f7e-2c27-407f-b82c-005943c09f10" name="Changes" comment="Pytest">
-      <change beforePath="$PROJECT_DIR$/Day 2/InputfromUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/InputfromUser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 3/FormattingOutput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 3/conditionalstatement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 3/match_statement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 4/Loop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +58,7 @@
     "Python.InputfromUser.executor": "Run",
     "Python.Operators.executor": "Run",
     "Python.Variable.executor": "Run",
+    "Python.conditionalstatement.executor": "Run",
     "Python.datatype.executor": "Run",
     "Python.delete_variables.executor": "Run",
     "Python.demo.executor": "Run",
@@ -93,7 +98,8 @@
       <workItem from="1768631461216" duration="4161000" />
       <workItem from="1768636913680" duration="5000" />
       <workItem from="1768640590156" duration="582000" />
-      <workItem from="1768643469824" duration="2783000" />
+      <workItem from="1768643469824" duration="3076000" />
+      <workItem from="1768713852961" duration="1404000" />
     </task>
     <task id="LOCAL-00001" summary="PythonProject.iml">
       <option name="closed" value="true" />
@@ -119,7 +125,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768652602003</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Pytest">
+      <option name="closed" value="true" />
+      <created>1768653162437</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768653162437</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Pytest">
+      <option name="closed" value="true" />
+      <created>1768653204449</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768653204449</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +165,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$delete_variables.coverage" NAME="delete_variables Coverage Results" MODIFIED="1768635216730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 2" />
+    <SUITE FILE_PATH="coverage/PythonProject$conditionalstatement.coverage" NAME="conditionalstatement Coverage Results" MODIFIED="1768718041969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 3" />
     <SUITE FILE_PATH="coverage/PythonProject$datatype.coverage" NAME="datatype Coverage Results" MODIFIED="1768635886586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 2" />
     <SUITE FILE_PATH="coverage/PythonProject$Variable.coverage" NAME="Variable Coverage Results" MODIFIED="1768634507488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 1" />
     <SUITE FILE_PATH="coverage/PythonProject$Operators.coverage" NAME="Operators Coverage Results" MODIFIED="1768651898769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 2" />
