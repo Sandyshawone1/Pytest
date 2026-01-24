@@ -13,7 +13,11 @@
 
 
 # Access items/values/objects
-# mylist=["apple","banana","cherry"]   # index starts from zero 0
+mylist=["apple","banana","cherry"]
+mylist[0]= "Kiwi"
+print(mylist)
+print(mylist.count("Kiwi"))
+# index starts from zero 0
 #
 # print(mylist[0]) # apple
 # print(mylist[2]) # cherry
