@@ -8,8 +8,6 @@
 # # calling the function/ invoking the function
 # myfun()
 
-
-
 #Example 2: Function with parameter but no return value
 
 # def myfun(name):

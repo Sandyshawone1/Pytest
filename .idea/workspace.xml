@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01d53f7e-2c27-407f-b82c-005943c09f10" name="Changes" comment="Onset and Tuple&#10;1. set in Python&#10;A set is an unordered, mutable collection of unique elements.&#10;Key properties&#10;No duplicate values&#10;Unordered (no indexing)&#10;Mutable (you can add/remove elements)&#10;Elements must be hashable (e.g., numbers, strings, tuples)">
-      <change afterPath="$PROJECT_DIR$/Day 10/Function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 10/functionarguments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 10/scopeofvariales.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 9/Dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 11/Oops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 12/Inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 12/Polymorphism.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 13/Modules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 13/Packages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 14/Abstraction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 14/Encapsylation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 15/Client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 15/Filehandling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 15/Fileoperation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 10/Function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 10/Function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,22 +44,22 @@
     &quot;assignee&quot;: &quot;Sandyshawone1&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Sandyshawone1/Pytest.git",
-    "accountId": "2a3e776f-bd15-47a1-bd20-3bafbc8c0d6f"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sandyshawone1/Pytest.git&quot;,
+    &quot;accountId&quot;: &quot;2a3e776f-bd15-47a1-bd20-3bafbc8c0d6f&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "Sandyshawone1",
-    "repository": "Pytest"
+    &quot;owner&quot;: &quot;Sandyshawone1&quot;,
+    &quot;repository&quot;: &quot;Pytest&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -71,6 +78,7 @@
     "Python.Dictionary.executor": "Run",
     "Python.InputfromUser.executor": "Run",
     "Python.Listdemo.executor": "Run",
+    "Python.Oops.executor": "Run",
     "Python.Operators.executor": "Run",
     "Python.Strings.executor": "Run",
     "Python.Variable.executor": "Run",
@@ -81,10 +89,11 @@
     "Python.demo.executor": "Run",
     "Python.mutabilityvsImutablity.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "git-widget-placeholder": "#1 on Pytest-1",
+    "git-widget-placeholder": "Pytest-1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -121,6 +130,9 @@
       <workItem from="1768844341614" duration="264000" />
       <workItem from="1768919459377" duration="902000" />
       <workItem from="1769238079401" duration="5815000" />
+      <workItem from="1769323394724" duration="3410000" />
+      <workItem from="1769409212272" duration="2554000" />
+      <workItem from="1769696861854" duration="1214000" />
     </task>
     <task id="LOCAL-00001" summary="PythonProject.iml">
       <option name="closed" value="true" />
@@ -218,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769239521646</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Onset and Tuple&#10;1. set in Python&#10;A set is an unordered, mutable collection of unique elements.&#10;Key properties&#10;No duplicate values&#10;Unordered (no indexing)&#10;Mutable (you can add/remove elements)&#10;Elements must be hashable (e.g., numbers, strings, tuples)">
+      <option name="closed" value="true" />
+      <created>1769323472702</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1769323472703</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,12 +283,13 @@
     <SUITE FILE_PATH="coverage/PythonProject$Listdemo.coverage" NAME="Listdemo Coverage Results" MODIFIED="1769239474324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 7" />
     <SUITE FILE_PATH="coverage/PythonProject$datatype.coverage" NAME="datatype Coverage Results" MODIFIED="1768635886586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 2" />
     <SUITE FILE_PATH="coverage/PythonProject$Variable.coverage" NAME="Variable Coverage Results" MODIFIED="1768634507488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 1" />
-    <SUITE FILE_PATH="coverage/PythonProject$Operators.coverage" NAME="Operators Coverage Results" MODIFIED="1768651898769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 2" />
     <SUITE FILE_PATH="coverage/PythonProject$Dictionary.coverage" NAME="Dictionary Coverage Results" MODIFIED="1769259317920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 9" />
+    <SUITE FILE_PATH="coverage/PythonProject$Operators.coverage" NAME="Operators Coverage Results" MODIFIED="1768651898769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 2" />
     <SUITE FILE_PATH="coverage/PythonProject$InputfromUser.coverage" NAME="InputfromUser Coverage Results" MODIFIED="1768652855970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 2" />
     <SUITE FILE_PATH="coverage/PythonProject$break_condition.coverage" NAME="break_condition Coverage Results" MODIFIED="1768721345659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 4" />
     <SUITE FILE_PATH="coverage/PythonProject$Concatenation.coverage" NAME="Concatenation Coverage Results" MODIFIED="1768652075601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 2" />
     <SUITE FILE_PATH="coverage/PythonProject$Strings.coverage" NAME="Strings Coverage Results" MODIFIED="1768729507072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 5" />
     <SUITE FILE_PATH="coverage/PythonProject$demo.coverage" NAME="demo Coverage Results" MODIFIED="1768633169453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 1" />
+    <SUITE FILE_PATH="coverage/PythonProject$Oops.coverage" NAME="Oops Coverage Results" MODIFIED="1769327904397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 11" />
   </component>
 </project>
