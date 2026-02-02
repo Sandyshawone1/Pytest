@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01d53f7e-2c27-407f-b82c-005943c09f10" name="Changes" comment="Python oops,file handling &amp; Exception handling">
-      <change afterPath="$PROJECT_DIR$/Day 17/test_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 17/test_demo_fixture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 17/test_demo_fixture_scope.py" afterDir="false" />
+    <list default="true" id="01d53f7e-2c27-407f-b82c-005943c09f10" name="Changes" comment="Pytest Fixture">
+      <change afterPath="$PROJECT_DIR$/Day 18/test_skipping.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,45 +61,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for test_demo.test_three.executor": "Run",
-    "Python tests.Python tests in test_demo.py.executor": "Run",
-    "Python.Concatenation.executor": "Run",
-    "Python.Dictionary.executor": "Run",
-    "Python.InputfromUser.executor": "Run",
-    "Python.Listdemo.executor": "Run",
-    "Python.Oops.executor": "Run",
-    "Python.Operators.executor": "Run",
-    "Python.Strings.executor": "Run",
-    "Python.Variable.executor": "Run",
-    "Python.break_condition.executor": "Run",
-    "Python.conditionalstatement.executor": "Run",
-    "Python.datatype.executor": "Run",
-    "Python.delete_variables.executor": "Run",
-    "Python.demo.executor": "Run",
-    "Python.mutabilityvsImutablity.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "git-widget-placeholder": "Pytest-1",
-    "last_opened_file_path": "/Users/sandeep/PycharmProjects/PythonProject/Day 17",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_demo.test_three.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_demo.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Concatenation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dictionary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.InputfromUser.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Listdemo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Oops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Operators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Strings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Variable.executor&quot;: &quot;Run&quot;,
+    &quot;Python.break_condition.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conditionalstatement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.datatype.executor&quot;: &quot;Run&quot;,
+    &quot;Python.delete_variables.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mutabilityvsImutablity.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Pytest-1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sandeep/PycharmProjects/PythonProject/Day 17&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Day 17" />
@@ -175,7 +173,8 @@
       <workItem from="1769323394724" duration="3410000" />
       <workItem from="1769409212272" duration="2554000" />
       <workItem from="1769696861854" duration="2494000" />
-      <workItem from="1769755920073" duration="4558000" />
+      <workItem from="1769755920073" duration="4592000" />
+      <workItem from="1770044345470" duration="351000" />
     </task>
     <task id="LOCAL-00001" summary="PythonProject.iml">
       <option name="closed" value="true" />
@@ -297,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769699343120</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Pytest Fixture">
+      <option name="closed" value="true" />
+      <created>1769770952092</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1769770952092</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +341,8 @@
     <MESSAGE value="List" />
     <MESSAGE value="Onset and Tuple&#10;1. set in Python&#10;A set is an unordered, mutable collection of unique elements.&#10;Key properties&#10;No duplicate values&#10;Unordered (no indexing)&#10;Mutable (you can add/remove elements)&#10;Elements must be hashable (e.g., numbers, strings, tuples)" />
     <MESSAGE value="Python oops,file handling &amp; Exception handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python oops,file handling &amp; Exception handling" />
+    <MESSAGE value="Pytest Fixture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pytest Fixture" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$delete_variables.coverage" NAME="delete_variables Coverage Results" MODIFIED="1768635216730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 2" />
