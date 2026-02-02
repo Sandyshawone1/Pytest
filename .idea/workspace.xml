@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01d53f7e-2c27-407f-b82c-005943c09f10" name="Changes" comment="Pytest skipping test">
-      <change afterPath="$PROJECT_DIR$/Day 18/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 18/test_grouping.py" afterDir="false" />
+    <list default="true" id="01d53f7e-2c27-407f-b82c-005943c09f10" name="Changes" comment="Pytest skipping test, Grouping and ordering test">
+      <change afterPath="$PROJECT_DIR$/Day 18/test_parallel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 18/test_skipping.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 18/test_skipping.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +174,7 @@
       <workItem from="1769409212272" duration="2554000" />
       <workItem from="1769696861854" duration="2494000" />
       <workItem from="1769755920073" duration="4592000" />
-      <workItem from="1770044345470" duration="1084000" />
+      <workItem from="1770044345470" duration="2027000" />
     </task>
     <task id="LOCAL-00001" summary="PythonProject.iml">
       <option name="closed" value="true" />
@@ -314,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770044849515</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Pytest skipping test, Grouping and ordering test">
+      <option name="closed" value="true" />
+      <created>1770046042948</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1770046042948</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +359,8 @@
     <MESSAGE value="Python oops,file handling &amp; Exception handling" />
     <MESSAGE value="Pytest Fixture" />
     <MESSAGE value="Pytest skipping test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pytest skipping test" />
+    <MESSAGE value="Pytest skipping test, Grouping and ordering test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pytest skipping test, Grouping and ordering test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$delete_variables.coverage" NAME="delete_variables Coverage Results" MODIFIED="1768635216730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 2" />
